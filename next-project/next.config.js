@@ -1,20 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  trailingSlash: true,
-  images: {
-    loader: "akamai",
-    path: "",
-  },
-  exportPathMap: async function (
-    defaultPathMap,
-    { dev, dir, outDir, distDir, buildId }
-  ) {
-    return {
-      "/": { page: "/" },
-    };
-  },
+module.exports = {
+  reactStrictMode: false,
 };
-
-module.exports = nextConfig;

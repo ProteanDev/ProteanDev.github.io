@@ -2,14 +2,14 @@
 
 # dependencies
 next-project/node_modules
-next-project/.pnp
-next-project/.pnp.js
+.pnp
+.pnp.js
 
 # testing
 next-project/coverage
 
 # next.js
-next-project/.next/
+.next/
 next-project/out/
 
 # production
@@ -20,17 +20,17 @@ next-project/build
 *.pem
 
 # debug
-next-project/npm-debug.log*
-next-project/yarn-debug.log*
-next-project/yarn-error.log*
-next-project/.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
 .env*.local
 
 # vercel
-next-project/.vercel
+.vercel
 
 # typescript
-next-project/*.tsbuildinfo
-next-project/next-env.d.ts
+*.tsbuildinfo
+next-env.d.ts
