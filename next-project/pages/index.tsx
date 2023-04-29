@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-start">
       <Head>
-        <title>Christian Dela Peña</title>
+        <title>Chan D</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
