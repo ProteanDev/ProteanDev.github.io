@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 const remoteCVImageSource =
-  "https://raw.githubusercontent.com/ProteanDev/ProteanDev.github.io/master/cv-img.png";
+  "https://raw.githubusercontent.com/ProteanDev/ProteanDev.github.io/master/cv-img.webp";
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-col items-center justify-center text-center">
         <>
           <picture className="w-full">
-            <source srcSet={remoteCVImageSource} type="image/png" />
+            <source srcSet={remoteCVImageSource} type="image/webp" />
             <img
               src={remoteCVImageSource}
               alt="CV"
