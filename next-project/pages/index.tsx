@@ -13,16 +13,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-col items-center justify-center text-center">
-        <>
-          <picture className="w-full">
-            <source srcSet={remoteCVImageSource} type="image/webp" />
-            <img
-              src={remoteCVImageSource}
-              alt="CV"
-              className="w-full h-full object-contain"
-            />
-          </picture>
-        </>
+        <img
+          src={remoteCVImageSource}
+          alt="CV"
+          className="w-full h-full object-contain"
+        />
       </main>
     </div>
   );

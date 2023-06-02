@@ -448,7 +448,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autoprefixer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.4.12"],\
             ["@types/postcss", null],\
             ["browserslist", "npm:4.21.4"],\
-            ["caniuse-lite", "npm:1.0.30001420"],\
+            ["caniuse-lite", "npm:1.0.30001492"],\
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
@@ -514,7 +514,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.21.4-7d64a96afc-4af3793704.zip/node_modules/browserslist/",\
           "packageDependencies": [\
             ["browserslist", "npm:4.21.4"],\
-            ["caniuse-lite", "npm:1.0.30001420"],\
+            ["caniuse-lite", "npm:1.0.30001492"],\
             ["electron-to-chromium", "npm:1.4.284"],\
             ["node-releases", "npm:2.0.6"],\
             ["update-browserslist-db", "virtual:7d64a96afc8cf9b31b95951ccc2f47931d0cf97faa526fd0d20448bf2c73ddf9f5ef9e5cd28839ae8b5791451df45079a407b3f4978367b4210748169f5848f6#npm:1.0.10"]\
@@ -559,10 +559,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["caniuse-lite", [\
-        ["npm:1.0.30001420", {\
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001420-f322909669-dfa5027b2a.zip/node_modules/caniuse-lite/",\
+        ["npm:1.0.30001492", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001492-90c5710f02-261869f910.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
-            ["caniuse-lite", "npm:1.0.30001420"]\
+            ["caniuse-lite", "npm:1.0.30001492"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1411,7 +1411,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.5"],\
             ["@types/sass", null],\
-            ["caniuse-lite", "npm:1.0.30001420"],\
+            ["caniuse-lite", "npm:1.0.30001492"],\
             ["fibers", null],\
             ["node-sass", null],\
             ["postcss", "npm:8.4.14"],\
